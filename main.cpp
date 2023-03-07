@@ -1,9 +1,9 @@
 #include <iostream>
-#include "functions.h"
-#include "functions.cpp"
-#include "RSA_key.cpp"
-#include "RSA_encrypt.cpp"
-#include "RSA_decrypt.cpp"
+#include "src/functions.h"
+#include "src/functions.cpp"
+#include "src/RSA_key.cpp"
+#include "src/RSA_encrypt.cpp"
+#include "src/RSA_decrypt.cpp"
 
 using namespace std;
 
