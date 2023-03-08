@@ -1,0 +1,69 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.23"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "RSA_algorithm",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "RSA_algorithm::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-RSA_algorithm-Debug-412e4af788cc1c37e9a8.json",
+					"name" : "RSA_algorithm",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "RSA_testing::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-RSA_testing-Debug-8bd135f6c3f52822b0b3.json",
+					"name" : "RSA_testing",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/nevil/Documents/GitHub/RSA-algorithm/cmake-build-debug",
+		"source" : "C:/Users/nevil/Documents/GitHub/RSA-algorithm"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}
