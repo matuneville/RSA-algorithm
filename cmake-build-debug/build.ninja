@@ -82,11 +82,11 @@ build RSA-algorithm.exe: CXX_EXECUTABLE_LINKER__RSA-algorithm_Debug CMakeFiles/R
 
 build cmake_object_order_depends_target_RSA-testing: phony || CMakeFiles/RSA-testing.dir
 
-build CMakeFiles/RSA-testing.dir/testing.cpp.obj: CXX_COMPILER__RSA-testing_Debug C$:/Users/nevil/Documents/GitHub/RSA-algorithm/testing.cpp || cmake_object_order_depends_target_RSA-testing
-  DEP_FILE = CMakeFiles\RSA-testing.dir\testing.cpp.obj.d
+build CMakeFiles/RSA-testing.dir/src/testing.cpp.obj: CXX_COMPILER__RSA-testing_Debug C$:/Users/nevil/Documents/GitHub/RSA-algorithm/src/testing.cpp || cmake_object_order_depends_target_RSA-testing
+  DEP_FILE = CMakeFiles\RSA-testing.dir\src\testing.cpp.obj.d
   FLAGS = -g -std=gnu++14
   OBJECT_DIR = CMakeFiles\RSA-testing.dir
-  OBJECT_FILE_DIR = CMakeFiles\RSA-testing.dir
+  OBJECT_FILE_DIR = CMakeFiles\RSA-testing.dir\src
 
 
 # =============================================================================
@@ -96,7 +96,7 @@ build CMakeFiles/RSA-testing.dir/testing.cpp.obj: CXX_COMPILER__RSA-testing_Debu
 #############################################
 # Link the executable RSA-testing.exe
 
-build RSA-testing.exe: CXX_EXECUTABLE_LINKER__RSA-testing_Debug CMakeFiles/RSA-testing.dir/testing.cpp.obj
+build RSA-testing.exe: CXX_EXECUTABLE_LINKER__RSA-testing_Debug CMakeFiles/RSA-testing.dir/src/testing.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\RSA-testing.dir
