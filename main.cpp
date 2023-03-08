@@ -56,7 +56,7 @@ int main() {
     int state = 0;
 
 
-        cout << "Enter 1 to generate a key \nEnter 2 to encrypt a message \nEnter 3 to decrypt a message \nEnter 4 to finish the running program"<< endl;
+        cout << "Enter 1 to generate a key \nEnter 2 to encrypt a message \nEnter 3 to decrypt a message"<< endl;
         cin >> state;
 
         if (state == 1){
